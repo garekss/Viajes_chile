@@ -1,0 +1,193 @@
+*{
+    color:#ffffff;
+  }
+  
+  .navbar h2{
+    font-size:20px;
+    font-family: "Roboto", sans-serif;
+    font-weight:500;
+    color:#ffffff;
+    margin-left: 40px;
+    margin-top: -15%;
+  }
+
+  #navmenu {
+    color:#ffffff;
+    font-family: "Cabin", sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    }
+  
+  .textviajeachile{
+  color: #fefbfb;
+  font-size:30px;
+  font-family: "Cabin",sans-serif;
+  font-weight:500;
+  }
+  
+  .principal{
+  background: #000000;
+  }
+  
+  .contenido{
+  color:#ffffff;
+  
+  }
+
+  .contenido h1{
+  font-size:35px;
+  font-family: "Cabin",sans-serif;
+  font-weight:300;
+  }
+  .contenido h2{ 
+  font-size:35px;
+  font-family: "Cabin",sans-serif;
+  font-weight:300;
+  }
+  
+  .contenido p{
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight:300;
+  color:#ffffff;
+  }
+
+  /* iconos */
+  .contenido i{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+  
+  .card h2 {
+  font-size:25px;
+  font-family: "Cabin",sans-serif;
+  font-weight:500;
+  justify-content: center;
+  text-align: center;
+  }
+  
+  .card p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight:400;
+  color:#ffffff;
+  
+  }
+  .card {
+    flex: 1;
+    margin-right: 15px;
+  }
+    
+    
+  @media (max-width: 1196px) {
+  .card-group {
+    flex-direction: column;           
+  }
+  .card-body h2{
+    font-weight: bold;
+  }
+  } 
+   
+  @media (max-width: 768px) {
+  #destacados .card-text {
+    font-size: 80%;
+    margin-top: 0px;
+    font-weight: 600;
+  }
+  .card-group {
+  margin-top: 1px; 
+  margin-bottom: 1px;
+  }
+  }
+  
+  
+  @media (max-width: 912px) {
+  #destacados .card-text {
+    font-size: 80%;
+    margin-top: 0px;
+    font-weight: 600;
+  }
+  .card-group {
+  margin-top: 1px; 
+  margin-bottom: 1px;
+  }
+  }
+  
+  .card img{
+  height: 11rem;
+  }
+  
+  /*----- Formulario -----*/
+  .formulario{
+  background: #000000;
+  }
+  
+  @media(max-width:435px){
+  #formularioSection h2{
+    font-size: 23px;
+  }
+  }
+  
+  #exampleFormControlTextarea1{
+  height: 12rem;
+  }
+  
+  label{
+  color:#ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight:400;
+  }
+  
+  #buttonEnviar{
+  color:#ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight:400;
+  width: 9rem;
+  margin-top: 15px;
+  }
+  
+  /* -----Footer -----*/
+  footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+  
+  footer .footertext{
+  font-size: 25px;
+  font-family: "Cabin",sans-serif;
+  font-weight:500;
+  padding-top: 1rem;
+  justify-content: center;
+  vertical-align: middle;
+  }
+  
+
+  /* Iconos redes sociales*/
+  
+  footer i{
+    margin-left: 1rem;
+  }
+  
+  /* Iconos redes sociales*/
+  .iconos a{
+    opacity: 0.9;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  @media(max-width:435px){
+    footer .footertext{
+      font-size: 18px;
+      
+    }
+    .iconos i{
+      width: 1.3rem;
+      height: auto;
+      margin-left: 0.8rem;
+    }
+  }
+  
